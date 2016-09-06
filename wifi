@@ -1,0 +1,5 @@
+#!/bin/bash
+# To use secondary antenna on the laptop
+
+sudo modprobe -rv rtl8723be
+sudo modprobe -v rtl8723be ant_sel=2
