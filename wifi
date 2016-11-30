@@ -2,4 +2,4 @@
 # To use secondary antenna on the laptop
 
 sudo modprobe -rv rtl8723be
-sudo modprobe -v rtl8723be ant_sel=2
+sudo modprobe -v rtl8723be ant_sel=2 #test with ant_sel=1 too. Check which is better and change the script accordingly.
